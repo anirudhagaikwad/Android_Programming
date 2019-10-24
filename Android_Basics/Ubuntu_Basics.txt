@@ -1,0 +1,157 @@
+
+########################################################################################################
+How to uninstall software from ubuntu
+
+Open a list of your currently installed programs. 
+Type into Terminal, then press ↵ Ent
+
+:~$ dpkg --list
+
+Find the program that you want to uninstall.
+
+:~$ sudo apt-get --purge remove programName
+
+#######################################################################################################
+
+How to install openJDK11+28
+check current version
+:~$ java -version
+
+download JDK11+28
+
+:~$ wget https://download.java.net/java/GA/jdk11/28/GPL/openjdk-11+28_linux-x64_bin.tar.gz -O /tmp/openjdk-11+28_linux-x64_bin.tar.gz
+
+extract tar
+
+:~$ sudo tar xfvz /tmp/openjdk-11+28_linux-x64_bin.tar.gz --directory /usr/lib/jvm
+
+its Optional --->:~$ rm -f /tmp/openjdk-11+28_linux-x64_bin.tar.gz
+
+Switching Between JDKs
+
+:~$ sudo sh -c 'for bin in /usr/lib/jvm/jdk-11/bin/*; do update-alternatives --install /usr/bin/$(basename $bin) $(basename $bin) $bin 100; done'
+
+:~$ sudo sh -c 'for bin in /usr/lib/jvm/jdk-11/bin/*; do update-alternatives --set $(basename $bin) $bin; done'
+
+package upgrade and which alternative switches to use.
+
+:~$ sudo apt-get install --only-upgrade default-jdk
+
+:~$ update-alternatives --config java
+
+Press <enter> to keep the current choice[*], or type selection number:
+
+https://dzone.com/articles/installing-openjdk-11-on-ubuntu-1804-for-real
+
+#########################################################################################################
+
+How to install Android Studio on Ubuntu 18.04LTS
+Download AndroidStudio.tar.gz and extract
+
+:~$ tar -xzvf android-studio-ide-191.5791312-linux.tar.gz
+
+Open a console and cd into "{installation home}/bin" and type:
+
+:~$ ./studio.sh
+
+Create a desktop file
+Create a new file androidstudio.desktop by running the command:
+
+:~$ nano ~/.local/share/applications/androidstudio.desktop
+
+and add the lines below
+
+/*
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Android Studio
+Exec="/media/savetree/Anirudha/Android_Oct2019/AndroidStudio3.5/android-studio/bin/studio.sh" %f
+Icon=/media/savetree/Anirudha/Android_Oct2019/AndroidStudio3.5/android-studio/bin/studio.png
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=android-studio
+*/
+
+Open AndroidStudion and set SDK path
+
+https://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu
+
+/media/savetree/Anirudha/Android_Oct2019/AndroidStudio3.5/android-studio/bin
+
+#######################################################################################################
+
+Its Optional ---> How to set Environment variable 
+
+    Open a terminal window with Ctrl+Alt+T.
+
+    Open the file for editing with
+
+:~$ gedit ~/.profile
+
+    Add the command to the bottom of the file.
+
+    Save and close gedit.
+
+    Log out and log in again.
+
+#######################################################################################################
+How to set KVM (KVM is required to run this AVD)
+
+:~$ sudo apt install qemu qemu-kvm  
+:~$ ls -al /dev/kvm
+:~$ grep kvm /etc/group
+:~$ kvm:x:some_number:
+:~$ sudo adduser $USER kvm
+
+https://askubuntu.com/questions/1050621/kvm-is-required-to-run-this-avd
+
+#######################################################################################################
+How to connect mobile to Android Studio
+
+:~$ sudo apt-get install android-tools-adb
+
+connect mobile in PPT Mode and On Developer Option - stay awake,usb debuging,revoke usb debubging authorisations
+
+:~$ lsusb
+:~$ adb devices
+
+after that open androidstudio it is display your mobile connectted
+
+#######################################################################################################
+How to install Eclipse
+Download tar.gz eclipse file and extract tar
+
+:~$ tar -xzvf eclipse.tar.gz
+
+create desktop icon using following steps
+
+:~$ nano ~/.local/share/applications/eclipse.desktop
+
+and add the configuration below. Note, you have to change the pach for Exec and/or Icon if you have used a different location.
+/*
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Eclipse IDE
+Comment=Eclipse Integrated Development Environment
+Icon=/media/savetree/Anirudha/JAVA_MAR_2019/eclipse/icon.xpm
+Exec=/media/savetree/Anirudha/JAVA_MAR_2019/eclipse/eclipse
+StartupNotify=true
+StartupWMClass=java-mars
+*/
+#########################################################################################################
+
+Inotify Watches Limit
+
+1. Add the following line to either /etc/sysctl.conf file or a new *.conf file (e.g. idea.conf) under /etc/sysctl.d/ directory:
+
+--> fs.inotify.max_user_watches = 524288
+:~$ sudo sysctl -p --system
+
+ restart your Android IDE.
+
+########################################################################################################
+

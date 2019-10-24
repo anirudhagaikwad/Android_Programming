@@ -1,0 +1,19 @@
+How to Set Android app icon 
+##################################################
+1)go to file --> Vector Asset -->set SVG image 192*192
+
+in Drawable (vector)XML file created(suppose name is icon.xml)
+
+2)in drawable create StateListDrawable another XML file(icon_test.xml)
+
+"<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/icon_test" />
+</selector> "
+
+3)change Mainfest file
+
+android:icon="@drawable/icon_test"
+android:roundIcon="@drawable/icon_test"
+
+########################################################

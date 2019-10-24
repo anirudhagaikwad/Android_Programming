@@ -1,0 +1,23 @@
+############## Material Desgine Settings ##########
+
+1) Add following in build.gradle(App)in dependencies section::
+
+ implementation 'com.google.android.material:material:1.1.0-beta01'
+
+2) Add any-one following in Style.xml in style-name-parent-section::
+   Update your app theme to inherit from one of these theme::
+
+    Theme.MaterialComponents
+    Theme.MaterialComponents.NoActionBar
+    Theme.MaterialComponents.Light
+    Theme.MaterialComponents.Light.NoActionBar
+    Theme.MaterialComponents.Light.DarkActionBar
+    Theme.MaterialComponents.DayNight
+    Theme.MaterialComponents.DayNight.NoActionBar
+    Theme.MaterialComponents.DayNight.DarkActionBar
+
+##########################################################################
+
+
+
+

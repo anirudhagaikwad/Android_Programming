@@ -1,0 +1,21 @@
+########### Android Details ##################
+Repositorys sites
+jcenter() :: https://bintray.com/ or https://jcenter.bintray.com/
+google()  :: https://maven.google.com/web/index.html
+
+########### Android OS Docs ####################
+https://source.android.com/
+
+########### Android Development Docs ################
+https://developer.android.com/
+
+################ Material Design ###########
+https://material.io/develop/android/docs/getting-started/
+
+#############################################################################
+CDN : A content delivery network (CDN) is a system of distributed servers (network) that deliver pages and other web content to a user, based on the geographic locations of the user.
+
+DP : Density-independent Pixel
+
+
+
