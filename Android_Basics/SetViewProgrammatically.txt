@@ -1,0 +1,38 @@
+##################### Create Any View using Java ################ 
+ public void creatButtonNew()
+    {
+// create button and set attributes
+        Button myButton =new Button(this);
+        myButton.setText("NewButton");
+        myButton.setId(mybtnId);
+        myButton.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
+        myButton.setTextColor(getResources().getColor(R.color.colorAccent));
+     
+//set buton on visible on app  
+        ConstraintLayout cLayout=(ConstraintLayout) findViewById(R.id.mainActivityLayout);
+         cLayout.addView(myButton);
+    }
+
+
+// On Click Listner 
+
+public void viewButton()
+    {
+
+        Button myButton=(Button) findViewById(R.id.loginBtn);
+
+        myButton.setOnClickListener(new View.OnClickListener()
+                                    {
+                                        public void onClick(View v)
+                                        {
+                                            creatButtonNew();
+                                            Toast.makeText(MainActivity.this, "Button Crerated", Toast.LENGTH_SHORT).show();
+                                        }
+
+                                    }
+        );
+
+    }
+
+
+   

@@ -1,0 +1,5 @@
+####### Useful Links ######
+
+https://developer.android.com/guide/
+
+https://developer.android.com/guide/platform
