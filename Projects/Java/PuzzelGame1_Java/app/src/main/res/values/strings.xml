@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PuzzelGame1_Java</string>
+    <string name="btn_txt1">Button1</string>
+    <string name="btn_txt2">Button2</string>
+    <string name="btn_txt3">Button3</string>
+    <string name="btn_txt4">Button4</string>
+    <string name="btn_txt5">Button5</string>
+    <string name="btn_txt6">Button6</string>
+    <string name="btn_txt7">Reset</string>
+
+</resources>
