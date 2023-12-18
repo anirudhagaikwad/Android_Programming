@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageSwitch</string>
+    <string name="img_desc">Image switch</string>
+    <string name="btn_name">Image-Switch</string>
+    <string name="btn2_name">Next-Activity</string>
+    <string name="btn3_name">Change-Color</string>
+</resources>
