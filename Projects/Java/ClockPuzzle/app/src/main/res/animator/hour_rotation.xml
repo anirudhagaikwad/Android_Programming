@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/animator/hour_rotation.xml -->
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="360"
+        android:duration="3600000"
+        android:repeatCount="infinite"
+        android:interpolator="@android:anim/linear_interpolator" />
+    <!-- 1 hour in milliseconds -->
+</set>

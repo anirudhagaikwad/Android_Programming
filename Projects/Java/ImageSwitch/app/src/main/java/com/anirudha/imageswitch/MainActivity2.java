@@ -1,7 +1,6 @@
 package com.anirudha.imageswitch;
 
 import androidx.annotation.ColorRes;
-import androidx.annotation.DrawableRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
@@ -23,7 +22,7 @@ public class MainActivity2 extends AppCompatActivity {
         button = findViewById(R.id.button3);
 
         // Set the initial vector drawable
-        imageView.setImageResource(R.drawable.img2);
+        imageView.setImageResource(R.drawable.img3);
 
         // Set a click listener for the button
         button.setOnClickListener(new View.OnClickListener() {

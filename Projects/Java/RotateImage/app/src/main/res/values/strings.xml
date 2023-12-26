@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RotateImage</string>
+    <string name="btn_choose">Select-Image</string>
+    <string name="btn_right">Rotate-Right</string>
+    <string name="btn_left">Rotate-Left</string>
+    <string name="btn_top">Rotate-Top</string>
+    <string name="btn_bottom">Rotate-Bottom</string>
+</resources>

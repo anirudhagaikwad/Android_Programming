@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">ActivityDemo</string>
-    <string name="btn_name1">Next Activity</string>
-    <string name="btn_name2">Previous Activity</string>
-    <string name="btn_name3">Close Activity</string>
-    <string name="txt_view">My Text</string>
-</resources>

@@ -6,4 +6,9 @@ https://developer.android.com/guide/platform
 
 https://developer.android.com/guide/
 
+https://developer.android.com/
+https://developer.android.com/courses
+https://developer.android.com/teach
+https://github.com/google-developer-training
+
 

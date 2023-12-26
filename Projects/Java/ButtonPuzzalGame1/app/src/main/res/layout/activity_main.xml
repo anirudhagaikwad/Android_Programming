@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- Button 1 -->
+    <Button
+        android:id="@+id/button1"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/button4" />
+
+    <!-- Button 2 -->
+    <Button
+        android:id="@+id/button2"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/button5" />
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/button3"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button6" />
+
+    <!-- Button 4 -->
+    <Button
+        android:id="@+id/button4"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/button7" />
+
+    <!-- Button 5 -->
+    <Button
+        android:id="@+id/button5"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/button8" />
+
+    <!-- Button 6 -->
+    <Button
+        android:id="@+id/button6"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button9" />
+
+    <!-- Button 7 -->
+    <Button
+        android:id="@+id/button7"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Button 8 -->
+    <Button
+        android:id="@+id/button8"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Button 9 -->
+    <Button
+        android:id="@+id/button9"
+        style="@style/PuzzleButton"
+        android:contentDescription="@string/btn_txt3"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Reset button -->
+    <Button
+        android:id="@+id/resetButton"
+        style="@style/ResetButton"
+        android:text="Reset"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

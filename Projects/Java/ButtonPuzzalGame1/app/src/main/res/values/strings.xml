@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ButtonPuzzalGame1</string>
+    <string name="btn_txt1">Button1</string>
+    <string name="btn_txt2">Button2</string>
+    <string name="btn_txt3">Button3</string>
+    <string name="btn_txt4">Button4</string>
+    <string name="btn_txt5">Button5</string>
+    <string name="btn_txt6">Button6</string>
+    <string name="btn_txt7">Button7</string>
+    <string name="btn_txt8">Button8</string>
+    <string name="btn_txt9">Button9</string>
+    <string name="btn_txt10">Reset</string>
+</resources>

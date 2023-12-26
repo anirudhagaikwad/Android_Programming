@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClockPuzzle</string>
+    <string name="strtbtn">Start</string>
+    <string name="stopbtn">Stop</string>
+</resources>

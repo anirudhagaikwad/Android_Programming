@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PuzzleButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="ResetButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+</resources>
