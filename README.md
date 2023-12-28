@@ -8,7 +8,7 @@
 
 # Android Notes :
 | Sr.No. |     Title     |             Link              |
-| -------|AlertSample | ------- |
+| -------|---------------|------------------ ------- |
 | 1      |   Introduction  | https://github.com/anirudhagaikwad/Android_Programming/blob/master/Notes/PDF/%231_Introduction.pdf |
 | 2      |Android_Architecture_Components  | https://github.com/anirudhagaikwad/Android_Programming/blob/master/Notes/PDF/%232_Android_Architecture_Components.pdf |
 
