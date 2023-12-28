@@ -14,6 +14,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 rotateImage(-90);
+                Toast.makeText(MainActivity.this, "Rotate Left", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -61,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 rotateImage(90);
+                Toast.makeText(MainActivity.this, "Rotate Right", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -68,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 rotateImage(-90); // Rotate counterclockwise for "Top"
+                Toast.makeText(MainActivity.this, "Rotate Top", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -75,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 rotateImage(90); // Rotate clockwise for "Bottom"
+                Toast.makeText(MainActivity.this, "Rotate Bottom", Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -5,6 +5,9 @@ https://developer.android.com/studio/install
 https://developer.android.com/guide/platform
 
 https://developer.android.com/guide/
+https://developer.android.com/reference/android/app/Activity#Fragments
+https://developer.android.com/guide/fragments/lifecycle
+https://developer.android.com/develop
 
 https://developer.android.com/
 https://developer.android.com/courses
