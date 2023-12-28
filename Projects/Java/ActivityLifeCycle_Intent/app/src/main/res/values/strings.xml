@@ -2,4 +2,6 @@
     <string name="app_name">ActivityLifeCycle_Intent</string>
     <string name="btn1_name">Start-Second-Activity</string>
     <string name="btn2_name">Start-First-Activity</string>
+    <string name="btn3_name">Start-Thired-Activity</string>
+    <string name="txt_name">00:00</string>
 </resources>
