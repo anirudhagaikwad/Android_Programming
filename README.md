@@ -15,7 +15,8 @@
 ##### https://github.com/anirudhagaikwad/Android_Programming/blob/master/Notes/PDF/%234_Android_Application_Fundamentals.pdf
 ##### https://github.com/anirudhagaikwad/Android_Programming/blob/master/Notes/PDF/%235_Activity.pdf
 ##### https://github.com/anirudhagaikwad/Android_Programming/blob/master/Notes/PDF/%236_VectorAssets.pdf
-##### 
+##### https://github.com/anirudhagaikwad/Android_Programming/blob/master/Notes/PDF/%237_Intent_Logging.pdf
+##### https://github.com/anirudhagaikwad/Android_Programming/blob/master/Notes/PDF/%238_Fregment.pdf
 
 
 

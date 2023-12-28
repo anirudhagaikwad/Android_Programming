@@ -8,6 +8,7 @@ https://developer.android.com/guide/
 https://developer.android.com/reference/android/app/Activity#Fragments
 https://developer.android.com/guide/fragments/lifecycle
 https://developer.android.com/develop
+https://developer.android.com/guide/topics/resources/available-resources
 
 https://developer.android.com/
 https://developer.android.com/courses

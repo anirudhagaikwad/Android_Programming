@@ -4,7 +4,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.content.Intent;
+import android.net.Uri;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,16 +21,19 @@ public class ThiredActivity extends AppCompatActivity {
     private int seconds = 0;
     private Handler handler;
 
+    Button btn4;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thired);
-
+        btn4=findViewById(R.id.button4);
         timerTextView = findViewById(R.id.timerTextView);
         Log.d(TAG, "onCreate");
 
         handler = new Handler(Looper.getMainLooper());
         startTimer();
+        implicitIntent();
     }
 
     @Override
@@ -92,4 +99,23 @@ public class ThiredActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void implicitIntent(){
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openWebPage();
+            }
+        });
+    }
+
+    private void openWebPage() {
+        // Define the URL to open
+        String webpageUrl = "https://www.rust-lang.org";
+        // Create an implicit intent with ACTION_VIEW action and the webpage URL
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(webpageUrl));
+        // Start the activity without checking for resolution
+        startActivity(intent);
+    }
+
 }

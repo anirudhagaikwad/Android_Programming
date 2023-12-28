@@ -4,4 +4,5 @@
     <string name="btn2_name">Start-First-Activity</string>
     <string name="btn3_name">Start-Thired-Activity</string>
     <string name="txt_name">00:00</string>
+    <string name="btn4_name">Implicit-Intent</string>
 </resources>
