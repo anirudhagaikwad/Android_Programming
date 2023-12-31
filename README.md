@@ -4,8 +4,8 @@
 | 1      |   ImageSwitch   | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ImageSwitch |
 | 2      |ActivityLifeCycle_Intent_Logging  | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ActivityLifeCycle_Intent |
 | 3      |AlertSample  | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/AlertSample |
-| 4      | RupeesConvertor | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RotateImage |
-| 5      | RandomNumberPuzzel | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RotateImage |
+| 4      | RupeesConvertor | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RupeeConvertor |
+| 5      | RandomNumberPuzzel | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RandomNumPuzzel |
 | 6      | RotateImage | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RotateImage |
 
 ***
