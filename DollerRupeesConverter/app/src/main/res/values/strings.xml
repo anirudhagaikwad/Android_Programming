@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">DollerRupeesConverter</string>
-    <string name="Amount_Doller">Amount</string>
-    <string name="welcome_doller_to_rupees_converter">Welcome :: Doller to Rupees Converter</string>
-    <string name="convert">Convert to Rupees</string>
-</resources>
