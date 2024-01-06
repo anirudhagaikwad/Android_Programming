@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomNavigationFragmentContainerView</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_message">Message</string>
+    <string name="title_setting">Setting</string>
+
+</resources>
