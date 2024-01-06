@@ -7,7 +7,8 @@
 | 4      | RupeesConvertor | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RupeeConvertor |
 | 5      | RandomNumberPuzzel | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RandomNumPuzzel |
 | 6      | RotateImage | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RotateImage |
-
+| 7       | Fragment-LifeCycle | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/FragmentLifeCycle |
+| 8       | BottomNavigationFragment | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/BottomNavigationFragmentContainerView |
 ***
 # Android MCQ : 
 ##### https://github.com/anirudhagaikwad/Android_Programming/tree/master/Notes/MCQ
