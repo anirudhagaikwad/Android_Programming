@@ -41,4 +41,4 @@ To ensure a robust understanding of app behavior and facilitate effective debugg
 1. Practical Implementation: Hands-on coding exercises ensure students grasp the concepts through practical application.
 2. Comprehensive Learning: Covering Activity Lifecycle, Intents, and Logging provides a holistic understanding of Android app development.
 3. Real-world Relevance: Emphasizing scenarios where proper activity lifecycle management, intent usage, and logging are crucial for app functionality.
-4. Documentation: Detailed documentation accompanies the project, aiding students in understanding each step and concept thoroughly.
+
