@@ -16,16 +16,13 @@
 | 6      | RotateImage | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RotateImage |
 | 7       | Fragment-LifeCycle_ViewModel | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/FragmentLifeCycle |
 | 8       | BottomNavigationFragment | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/BottomNavigationFragmentContainerView |
-
-| -------|---------------- | ----------------------------- |
-
-| 9      | ContextMenuScrollingText | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 10      | KeyboardDialPhone | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 11       | DatePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 11       | TimePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
+| 9      | ContextMenuScrollingText | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ContextMenuScrollingText |
+| 10      | KeyboardDialPhone | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/KeyboardDialPhone |
+| 11       | DatePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/DatePicker |
+| 11       | TimePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/TimePicker |
 | 12       | PhoneNumberSpinner | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
 | 13       | OpenDefaultAppWithTabView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 14       | NavigationDrawer | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 15       | RecyclerView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 16       | PowerReceiver | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
+| 14       | NavigationDrawer | Link - not created yet |
+| 15       | RecyclerView | Link - not created yet |
+| 16       | PowerReceiver | Link - not created yet |
 ***
