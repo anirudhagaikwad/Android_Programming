@@ -15,4 +15,6 @@ https://developer.android.com/courses
 https://developer.android.com/teach
 https://github.com/google-developer-training
 
+https://developer.android.com/training/data-storage#pref
 
+https://developer.android.com/training/data-storage/room

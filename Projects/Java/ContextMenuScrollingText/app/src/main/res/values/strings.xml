@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ContextMenuScrollingText</string>
+    <string name="article_title">Oracle Java SE Support Roadmap</string>
+    <string name="article_subtitle">Oracle Java SE Product Releases!</string>
+    <string name="article_text">Oracle provides this Oracle Java SE Support Roadmap, to help you understand maintenance and support options and related timelines. If you are looking for the latest free JDK release from Oracle under an open source license, please see jdk.java.net, or a free under commercial license see oracle.com/javadownload.
+
+<b>Highlights include:</b>
+\n\n
+Oracle Java SE Support Roadmap*†
+\n\n
+Release	GA Date	Premier Support Until	Extended Support Until	Sustaining Support. \n\n
+8﻿ (LTS)**	March 2014	March 2022	December 2030*****	Indefinite \m
+9 - 10﻿ (non-LTS)	September 2017 - March 2018	March 2018 - September 2018	Not Available	Indefinite \n
+11 (LTS)	September 2018	September 2023	January 2032*****	Indefinite \n
+12 - 16 (non-LTS)	March 2019 - March 2021	September 2019 - September 2021	Not Available	Indefinite \n
+17 (LTS)	September 2021	September 2026****	September 2029****	Indefinite \n
+18 (non-LTS)	March 2022	September 2022	Not Available	Indefinite \n
+19 (non-LTS)	September 2022	March 2023	Not Available	Indefinite \n
+20 (non-LTS)	March 2023	September 2023	Not Available	Indefinite \n
+21 (LTS)	September 2023	September 2028****	September 2031****	Indefinite \n
+22 (non-LTS)***	March 2024	September 2024	Not Available	Indefinite \n
+23 (non-LTS)***	September 2024	March 2025	Not Available	Indefinite \n
+24 (non-LTS)***	March 2025	September 2025	Not Available	Indefinite \n
+25 (LTS)***	September 2025	September 2030	September 2033	Indefinite \n
+        \n\n
+        Oracle Customers are those Oracle customers with an active (1) Java SE Subscription product, (2) support contract for Oracle Java SE Advanced, Oracle Java SE Advanced Desktop, Oracle Java SE Suite, and/or Java SE Support, or (3) Java SE support entitlement for use of Java SE solely with another Oracle product (Visit My.Oracle.Support Note 1557737.1 - Support Entitlement for Java SE When Used As Part of Another Oracle Product – Requires Support Login).
+\n
+Personal, Development and other Users are those who use Java SE under one of the permitted uses at no cost under the Oracle Technology Network License Agreement for Java SE. This includes individuals who use Java SE for free on personal desktops or laptops, or those who use Java SE for development use. Please see the Oracle Java SE Licensing FAQ for more information.
+\n
+All Users are those who use Java SE 17 and later at no cost under the terms of the Oracle No-Fee Terms and Conditions License.
+\n
+Oracle JDK and OpenJDK builds from Oracle
+Since September 2017, Oracle provides JDK releases under a free open source license (similar to that of Linux). Availability and community support of OpenJDK releases provided by Oracle is listed separately on jdk.java.net.
+\n
+Since September 2021, Oracle provides the Oracle JDK for Java 17 and later under a free use license for All Users. Oracle JDK releases for Java 16 and earlier versions continue to be made available under the Oracle Technology Network License Agreement for Java SE, which is free for Personal, Development and other Users only.
+\n
+For more information on Oracle Java licensing, please see the Oracle Java SE Licensing FAQ.
+\n
+Dates listed below apply only to the commercially supported Oracle JDK releases available to Oracle Customers.
+\n
+Oracle Java SE Product Releases
+Oracle provides Customers with Oracle Premier Support on Oracle Java SE products as described in the Oracle Lifetime Support Policy. For product releases after Java SE 8, Oracle will designate only certain releases as Long-Term-Support (LTS) releases. Java SE 8, 11, 17 and 21 are LTS releases. Oracle intends to make future LTS releases every two years meaning the next planned LTS release is Java 25 in September 2025. For the purposes of Oracle Premier Support, non-LTS releases are considered a cumulative set of implementation enhancements of the most recent LTS release. Once a new feature release is made available, any previous non-LTS release will be considered superseded. For example, Java SE 9 was a non-LTS release and immediately superseded by Java SE 10 (also non-LTS), Java SE 10 in turn is immediately superseded by Java SE 11. Java SE 11 however is an LTS release, and therefore Oracle Customers will receive Oracle Premier Support and periodic update releases, even though Java SE 12 was released. \n
+    </string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="edit_message">Edit choice clicked.</string>
+    <string name="share_message">Share choice clicked.</string>
+    <string name="delete_message">Delete choice clicked.</string>
+
+</resources>
