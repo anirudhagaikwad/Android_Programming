@@ -18,3 +18,9 @@ https://github.com/google-developer-training
 https://developer.android.com/training/data-storage#pref
 
 https://developer.android.com/training/data-storage/room
+
+https://developer.android.com/develop/ui
+
+https://github.com/android
+
+https://developer.android.com/jetpack/compose

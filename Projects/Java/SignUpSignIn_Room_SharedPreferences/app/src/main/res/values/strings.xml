@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SignUpSignIn_Room_SharedPreferences</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signInBtn">SignIn</string>
+    <string name="signUpBtn">SignUp</string>
+    <string name="userName">UserName</string>
+    <string name="passwd">Password</string>
+    <string name="registerBtn">Register</string>
+    <string name="homeTxt">Home</string>
+
+    <!-- helper Text -->
+    <string name="hUserName">Enter-Your-Name</string>
+    <string name="hPass">Enter-Password</string>
+    <string name="loginTextview">Already Register?\nLogin Here</string>
+    <string name="registerTextview">Not Register!\nRegister Here</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginfragmnet.LoginFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/uNameTextLayoutLogin"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="@string/userName"
+        android:textColor="@color/colorFont"
+        android:textColorHint="@color/colorFont"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:counterTextColor="@color/colorAccent"
+        app:helperText="@string/hUserName"
+        app:helperTextTextColor="@color/colorFont">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/uNameTextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_person_identity_16dp"
+            android:ems="0"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorFont"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTextLayoutLogin"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uNameTextLayoutLogin"
+        android:hint="@string/passwd"
+        android:textColor="@color/colorFont"
+        android:textColorHint="@color/colorFont"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:counterTextColor="@color/colorAccent"
+        app:helperText="@string/hPass"
+        app:helperTextTextColor="@color/colorFont">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordTextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_shield"
+            android:ems="0"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorFont"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitBtnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="161dp"
+        android:enabled="true"
+        android:text="@string/signInBtn"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextLayoutLogin" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/registrationTextViewLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitBtnLogin"
+        android:text="@string/registerTextview"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

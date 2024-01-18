@@ -20,9 +20,11 @@
 | 10      | KeyboardDialPhone | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/KeyboardDialPhone |
 | 11       | DatePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/DatePicker |
 | 11       | TimePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/TimePicker |
-| 12       | PhoneNumberSpinner | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 13       | OpenDefaultAppWithTabView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ |
-| 14       | NavigationDrawer | Link - not created yet |
-| 15       | RecyclerView | Link - not created yet |
-| 16       | PowerReceiver | Link - not created yet |
+| 12       | PhoneNumberSpinner | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/PhoneNumberSpinner |
+| 13       | OpenDefaultAppWithTabView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/OpenDefaultAppWithTabView |
+| 14       | DrawerNavigationView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/DrawerNavigationView |
+| 15       | SignUp-SignIn using SqlLite | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SignUpSignIn_SQLDialect |
+| 16       | SignUp-SignIn using Room with SharedPreferences | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SignUpSignIn_Room_SharedPreferences |
+
+
 ***
