@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <stroke
+        android:width="1dp"
+        android:color="#F4401A" />
+     <gradient
+        android:type="linear"
+        android:angle="0"
+        android:startColor="#F4401A"
+        android:centerColor="#F37256"
+        android:endColor="#F7D1C9" />
+</shape>
+
+<!-- xmlns:android="http://schemas.android.com/apk/res/android": This attribute defines the XML namespace for Android attributes. It's a standard declaration that allows you to use Android-specific attributes in your XML file.-->
+<!--android:shape="line": Specifies that the shape is a line. This attribute is part of the <shape> element, and it determines the type of shape.-->
+<!--<stroke>: Describes the stroke (border) properties of the shape.-->
+<!--android:width="1dp": Sets the width of the stroke to 1 density-independent pixel (dp).-->
+<!--android:color="#F4401A": Sets the color of the stroke to the specified hexadecimal color code (#F4401A in this case).-->
+<!--<gradient>: Defines the gradient fill for the shape.-->
+<!--android:type="linear": Specifies a linear gradient.-->
+<!--android:angle="0": Sets the angle of the linear gradient to 0 degrees, creating a horizontal gradient.-->
+<!--android:startColor="#F4401A": Defines the starting color of the gradient.-->
+<!--android:centerColor="#F37256": Defines the center color of the gradient.-->
+<!--android:endColor="#F7D1C9": Defines the ending color of the gradient.-->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadiusRatio="4"
+    android:thickness="20dp"
+    android:useLevel="false">
+    <gradient
+        android:type="radial"
+        android:centerX=".5"
+        android:centerY=".5"
+        android:gradientRadius="60dp"
+        android:startColor="#F4401A"
+        android:centerColor="#F37256"
+        android:endColor="#F7D1C9" />
+</shape>
+
+
+<!--android:shape="ring": Specifies that the shape is a ring.-->
+<!--android:innerRadiusRatio="4": Defines the inner radius of the ring as a ratio to its size.-->
+<!--android:thickness="20dp": Specifies the thickness of the ring.-->
+<!--android:useLevel="false": Indicates whether the level should be used for the shape. In this case, it's set to false.-->
+<!--<gradient>: Defines the radial gradient fill for the ring.-->
+<!--android:type="radial": Specifies a radial gradient.-->
+<!--android:centerX=".5": Sets the X-coordinate of the center of the gradient to the middle of the shape (50%).-->
+<!--android:centerY=".5": Sets the Y-coordinate of the center of the gradient to the middle of the shape (50%).-->
+<!--android:gradientRadius="60dp": Specifies the radius of the gradient. In this case, it's set to 60dp.-->
+<!--android:startColor="#F4401A": Defines the starting color of the gradient.-->
+<!--android:centerColor="#F37256": Defines the center color of the gradient.-->
+<!--android:endColor="#F7D1C9": Defines the ending color of the gradient.-->

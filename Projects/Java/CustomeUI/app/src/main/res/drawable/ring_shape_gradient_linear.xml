@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="ring"
+        android:innerRadiusRatio="4"
+        android:thickness="20dp"
+        android:useLevel="false" >
+        <gradient
+            android:centerColor="@android:color/transparent"
+            android:centerY="1.5"
+            android:endColor="@android:color/holo_green_dark"
+            android:startColor="@android:color/transparent"
+            android:type="sweep"/>
+    </shape>
+
+<!--android:shape="ring": Specifies that the shape is a ring.-->
+
+<!--android:innerRadiusRatio="4": Defines the inner radius of the ring as a ratio to its size.-->
+
+<!--android:thickness="20dp": Specifies the thickness of the ring.-->
+
+<!--android:useLevel="false": Indicates whether the level should be used for the shape. In this case, it's set to false.-->
+
+<!--<gradient>: Defines the sweep gradient fill for the ring.-->
+
+<!--android:centerColor="@android:color/transparent": Sets the color at the center of the sweep to transparent.-->
+<!--android:centerY="1.5": Sets the Y-coordinate of the center of the sweep to 1.5 times the ring size.-->
+<!--android:endColor="@android:color/holo_green_dark": Defines the ending color of the sweep.-->
+<!--android:startColor="@android:color/transparent": Defines the starting color of the sweep as transparent.-->
+<!--android:type="sweep": Specifies a sweep gradient, where colors are distributed in a circular manner.-->

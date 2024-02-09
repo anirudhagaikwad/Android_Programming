@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle"
+        android:innerRadiusRatio="4"
+        android:thickness="20dp"
+        android:useLevel="false" >
+    <gradient
+        android:type="radial"
+        android:angle="315"
+        android:startColor="#F4401A"
+        android:centerColor="#F37256"
+        android:endColor="#F7D1C9" />
+    </shape>
+
+<!--android:shape="rectangle": Specifies that the shape is a rectangle.-->
+
+<!--android:innerRadiusRatio="4": Defines the inner radius of the radial gradient as a ratio to the size of the rectangle.-->
+
+<!--android:thickness="20dp": Specifies the thickness of the rectangle.-->
+
+<!--android:useLevel="false": Indicates whether the level should be used for the shape. In this case, it's set to false.-->
+
+<!--<gradient>: Defines the radial gradient fill for the rectangle.-->
+
+<!--android:type="radial": Specifies a radial gradient.-->
+<!--android:angle="315": Sets the angle of the gradient to 315 degrees.-->
+<!--android:startColor="#F4401A": Defines the starting color of the gradient.-->
+<!--android:centerColor="#F37256": Defines the center color of the gradient.-->
+<!--android:endColor="#F7D1C9": Defines the ending color of the gradient.-->

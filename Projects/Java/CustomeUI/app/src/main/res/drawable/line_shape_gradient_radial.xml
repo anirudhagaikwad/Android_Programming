@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <stroke
+        android:width="2dp"
+        android:color="#F4401A" />
+    <gradient
+        android:type="radial"
+        android:centerX=".5"
+        android:centerY=".5"
+        android:gradientRadius="20dp"
+        android:startColor="#F4401A"
+        android:centerColor="#F37256"
+        android:endColor="#F7D1C9" />
+</shape>
+
+
+<!--android:shape="line": Specifies that the shape is a line.-->
+<!--<stroke>: Describes the stroke (border) properties of the shape.-->
+<!--android:width="2dp": Sets the width of the stroke to 2 density-independent pixels (dp).-->
+<!--android:color="#F4401A": Sets the color of the stroke to #F4401A.-->
+<!--<gradient>: Defines the radial gradient fill for the line.-->
+<!--android:type="radial": Specifies a radial gradient.-->
+<!--android:centerX=".5": Sets the X-coordinate of the center of the gradient to the middle of the shape (50%).-->
+<!--android:centerY=".5": Sets the Y-coordinate of the center of the gradient to the middle of the shape (50%).-->
+<!--android:gradientRadius="20dp": Specifies the radius of the gradient. In this case, it's set to 20dp.-->
+<!--android:startColor="#F4401A": Defines the starting color of the gradient.-->
+<!--android:centerColor="#F37256": Defines the center color of the gradient.-->
+<!--android:endColor="#F7D1C9": Defines the ending color of the gradient.-->

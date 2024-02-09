@@ -19,12 +19,14 @@
 | 9      | ContextMenuScrollingText | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ContextMenuScrollingText |
 | 10      | KeyboardDialPhone | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/KeyboardDialPhone |
 | 11       | DatePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/DatePicker |
-| 11       | TimePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/TimePicker |
-| 12       | PhoneNumberSpinner | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/PhoneNumberSpinner |
-| 13       | OpenDefaultAppWithTabView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/OpenDefaultAppWithTabView |
-| 14       | DrawerNavigationView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/DrawerNavigationView |
-| 15       | SignUp-SignIn using SqlLite | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SignUpSignIn_SQLDialect |
-| 16       | SignUp-SignIn using Room with SharedPreferences | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SignUpSignIn_Room_SharedPreferences |
+| 12       | TimePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/TimePicker |
+| 13       | PhoneNumberSpinner | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/PhoneNumberSpinner |
+| 14       | OpenDefaultAppWithTabView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/OpenDefaultAppWithTabView |
+| 15       | DrawerNavigationView | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/DrawerNavigationView |
+| 16       | SignUp-SignIn using SqlLite | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SignUpSignIn_SQLDialect |
+| 17       | SignUp-SignIn using Room with SharedPreferences | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SignUpSignIn_Room_SharedPreferences |
+| 18       | Custome UI with Shapes & Gradient | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/CustomeUI |
+| 19       | SignUp-SignIn using Firebase | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SingUPSignIN_Firebase |
 
 
 ***

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:type="radial"
+        android:angle="90"
+        android:startColor="#F4401A"
+        android:centerColor="#F37256"
+        android:endColor="#F7D1C9"
+        android:gradientRadius="40dp"
+        android:centerX=".5"
+        android:centerY=".5" />
+</shape>
+
+<!--android:shape="oval": Specifies that the shape is an oval.-->
+<!--<gradient>: Defines the radial gradient fill for the oval.-->
+<!--android:type="radial": Specifies a radial gradient.-->
+<!--android:angle="90": Sets the angle of the gradient to 90 degrees.-->
+<!--android:startColor="#F4401A": Defines the starting color of the gradient.-->
+<!--android:centerColor="#F37256": Defines the center color of the gradient.-->
+<!--android:endColor="#F7D1C9": Defines the ending color of the gradient.-->
+<!--android:gradientRadius="40dp": Specifies the radius of the gradient. In this case, it's set to 40 density-independent pixels (dp).-->
+<!--android:centerX=".5": Sets the X-coordinate of the center of the gradient to the middle of the shape (50%).-->
+<!--android:centerY=".5": Sets the Y-coordinate of the center of the gradient to the middle of the shape (50%).-->
+
