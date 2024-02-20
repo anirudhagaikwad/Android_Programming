@@ -4,37 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/card_view_gradient"
+    android:id="@+id/contlay"
     tools:context=".MainActivity">
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="393dp"
-        android:layout_height="330dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="530dp"
-        android:backgroundTint="@android:color/transparent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="356dp"
+        android:layout_height="314dp"
+        android:elevation="4dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:cardCornerRadius="8dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
 
         <Button
+            android:id="@+id/b1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@drawable/oval_shape_gradient_radial"
-            android:backgroundTint="#80FFFFFF"
             android:contentDescription="@string/app_name"
-            android:text="Button"
-            android:textColor="@color/white"
+            android:enabled="false"
             android:gravity="center"
-            android:enabled="false"/>
+            android:text="Button"
+            android:textColor="@color/white" />
 
     </androidx.cardview.widget.CardView>
 

@@ -15,7 +15,7 @@
 | 5      | RandomNumberPuzzel | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RandomNumPuzzel |
 | 6      | RotateImage | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/RotateImage |
 | 7       | Fragment-LifeCycle_ViewModel | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/FragmentLifeCycle |
-| 8       | BottomNavigationFragment | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/BottomNavigationFragmentContainerView |
+| 8       | BottomNavigationFragment with use LiveData| https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/BottomNavigationFragmentContainerView |
 | 9      | ContextMenuScrollingText | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/ContextMenuScrollingText |
 | 10      | KeyboardDialPhone | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/KeyboardDialPhone |
 | 11       | DatePicker | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/DatePicker |

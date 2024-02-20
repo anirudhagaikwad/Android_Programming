@@ -24,3 +24,5 @@ https://developer.android.com/develop/ui
 https://github.com/android
 
 https://developer.android.com/jetpack/compose
+
+https://angrytools.com/gradient/

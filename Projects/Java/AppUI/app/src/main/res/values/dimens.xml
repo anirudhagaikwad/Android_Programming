@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/dimens.xml -->
+<resources>
+<!--    <dimen name="card_view_corner_radius">8dp</dimen>-->
+<!--    <dimen name="btn_view_corner_radius">1dp</dimen>-->
+    <dimen name="corner_radius">180dp</dimen>
+</resources>
