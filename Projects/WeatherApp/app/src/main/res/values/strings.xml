@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="wind">Wind:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="precipitation">Precipitation:</string>
+    <string name="temperature">Temperature:</string>
+</resources>

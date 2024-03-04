@@ -12,13 +12,18 @@ import android.widget.LinearLayout;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class MainActivity extends AppCompatActivity {
-ImageView imageView;
+    private ImageView[] imageViews = new ImageView[8];
+    private int currentImageIndex = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         SwipeRefreshLayout swipe = findViewById(R.id.swipeid);
-        imageView=findViewById(R.id.imageView1);
+        for (int i = 0; i < 8; i++) {
+            int imageViewId = getResources().getIdentifier("imageView" + (i + 1), "id", getPackageName());
+            imageViews[i] = findViewById(imageViewId);
+        }
+        //switchImage(); // Set the initial image
         setImageResource(R.drawable.img1);
         swipe.setColorSchemeResources(android.R.color.holo_red_dark);
         swipe.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -49,14 +54,17 @@ ImageView imageView;
 
     private void switchImage() {
         // implement logic for switching images here
-        @DrawableRes int currentImage = (int) imageView.getTag();
+        @DrawableRes int currentImage = (int) imageViews[currentImageIndex].getTag();
         int newImage = (currentImage == R.drawable.img1) ? R.drawable.img2 : R.drawable.img1;
         setImageResource(newImage);
+        currentImageIndex = (currentImageIndex + 1) % 8;
     }
 
     private void setImageResource(@DrawableRes int resourceId) {
-        // Set the image resource and update the tag
-        imageView.setImageResource(resourceId);
-        imageView.setTag(resourceId);
+        for (ImageView imageView : imageViews) {
+            // Set the image resource and update the tag for all ImageViews
+            imageView.setImageResource(resourceId);
+            imageView.setTag(resourceId);
+        }
     }
 }
