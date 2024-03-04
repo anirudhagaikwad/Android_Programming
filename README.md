@@ -27,6 +27,9 @@
 | 17       | SignUp-SignIn using Room with SharedPreferences | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SignUpSignIn_Room_SharedPreferences |
 | 18       | Custome UI with Shapes & Gradient | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/CustomeUI |
 | 19       | SignUp-SignIn using Firebase | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Java/SingUPSignIN_Firebase |
+| 20       | Notepad+ | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/Notepad+ |
+| 21       | WhetherApp | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/WeatherApp |
+| 22       | WaterSupplier | https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/WaterSupplier |
 
 
 ***
