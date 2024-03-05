@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">#c0392b</color>
-    <color name="colorPrimaryDark">#c0392b</color>
-    <color name="colorAccent">#eaeded</color>
-    <color name="colorOverflow">#212121</color>
-    <color name="colorFont">#eaeded</color>
-</resources>
