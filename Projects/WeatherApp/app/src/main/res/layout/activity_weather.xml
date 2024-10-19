@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/constraintLayoutID"
-    tools:context=".WeatherActivity">
+    tools:context=".WeatherActivity"
+    android:background="@drawable/purpel_gradient">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeid"
@@ -34,6 +35,7 @@
                 >
                 <LinearLayout
                     android:id="@+id/layout1"
+                    android:background="@drawable/card_view_gradient"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -43,8 +45,10 @@
                     <TextView
                         android:id="@+id/countryTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
                         android:text="@string/app_name"/>
                 </LinearLayout>
 
@@ -68,14 +72,17 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
+                    android:background="@drawable/card_view_gradient"
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/cityTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
                         android:text="@string/app_name"
-                        android:gravity="center" />
+                        />
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -99,16 +106,18 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/card_view_gradient">
 
 
                     <TextView
                         android:id="@+id/sunRiseTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center"
+                        android:foregroundGravity="center"
                         android:gravity="center"
-                        android:text="@string/app_name"/>
+                       android:text="@string/app_name"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -132,16 +141,18 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/card_view_gradient">
 
 
                     <TextView
                         android:id="@+id/sunSetTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="@string/app_name"
-                        />
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="@string/app_name"/>
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
@@ -164,14 +175,17 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/card_view_gradient">
 
 
                     <TextView
                         android:id="@+id/tempratureTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
                         android:text="@string/app_name"/>
                 </LinearLayout>
 
@@ -195,14 +209,17 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/card_view_gradient">
 
 
                     <TextView
                         android:id="@+id/windSpeedTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
                         android:text="@string/app_name"/>
                 </LinearLayout>
 
@@ -225,13 +242,16 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/card_view_gradient">
 
                     <TextView
                         android:id="@+id/longitudeTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
                         android:text="@string/app_name"/>
                 </LinearLayout>
 
@@ -255,13 +275,16 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/card_view_gradient">
 
                     <TextView
                         android:id="@+id/latitudeTextViewID"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
                         android:text="@string/app_name"/>
                 </LinearLayout>
 

@@ -20,6 +20,10 @@ import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.Priority;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.TimeZone;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Call;
@@ -182,14 +186,14 @@ public class WeatherActivity extends AppCompatActivity {
         // Update UI elements with weatherData
         if (weatherData != null) {
             // WeatherData class has appropriate methods to retrieve
-            String temperatureText = "Temperature: " + weatherData.getMain().getTemp()+ " Kelvin";
-            String windSpeedText = "WindSpeed: " + weatherData.getWind().getSpeed() + "%";
+            String temperatureText = "Temperature: " + kelvinToCelsiusString(weatherData.getMain().getTemp());
+            String windSpeedText = "WindSpeed: " + weatherData.getWind().getSpeed();
             String cityText = "CityName: " + weatherData.getName();
             String countrText = "Country: " + weatherData.getSys().getCountry();
             String langText = "longitude : " + weatherData.getCoord().getLon();
             String latText = "latitude: " + weatherData.getCoord().getLat();
-            String sunRiseText = "Sunrise : " + weatherData.getSys().getSunrise();
-            String sunSetText = "Sunset: " + weatherData.getSys().getSunset();
+            String sunRiseText = "Sunrise : " + convertUnixTimeTo12hr(weatherData.getSys().getSunrise());
+            String sunSetText = "Sunset: " + convertUnixTimeTo12hr(weatherData.getSys().getSunset());
 
             textViewTemperature.setText(temperatureText);
             textViewWindSpeed.setText(windSpeedText);
@@ -220,5 +224,23 @@ public class WeatherActivity extends AppCompatActivity {
 
         // Call the superclass implementation
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
+
+    public static String convertUnixTimeTo12hr(long unixTime) {
+        // Convert Unix time to milliseconds
+        long unixTimeMillis = unixTime * 1000L;
+        // Create a Date object from Unix time
+        Date date = new Date(unixTimeMillis);
+        // Create a SimpleDateFormat object to format the date
+        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm a", Locale.getDefault());
+        // Set the time zone to UTC to avoid local time zone conversion
+        sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+        // Format the date in 12-hour AM/PM format
+        return sdf.format(date);
+    }
+
+    public static String kelvinToCelsiusString(double kelvin) {
+        double celsius = kelvin - 273.15;
+        return String.format("%.2f°C", celsius); // Format the temperature with two decimal places and append "°C"
     }
 }

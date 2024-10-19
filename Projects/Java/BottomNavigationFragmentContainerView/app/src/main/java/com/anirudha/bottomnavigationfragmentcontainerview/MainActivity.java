@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }}
+        
+        
         // Set up ActionBar with Navigation Component
    /*     NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         appBarConfiguration = new AppBarConfiguration.Builder(

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174385462908",
+    "project_id": "signupin-bea1a",
+    "storage_bucket": "signupin-bea1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174385462908:android:67d811c2655653b02b13f9",
+        "android_client_info": {
+          "package_name": "com.anirudha.singupsignin_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174385462908-ge5rp89u4bi3fvjpl58lofjkahesqedd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDirxe6t6wcpHSeiLZ1zwacDAW5CffnyL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174385462908-ge5rp89u4bi3fvjpl58lofjkahesqedd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

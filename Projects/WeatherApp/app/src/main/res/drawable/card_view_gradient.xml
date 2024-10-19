@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="45"
+                android:startColor="#F4401A"
+                android:endColor="#F7D1C9"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="#FFFFFFFF"/>
+            <corners
+                android:bottomRightRadius="180dp"
+                android:topLeftRadius="180dp"
+                android:topRightRadius="180dp"
+                android:bottomLeftRadius="180dp"/>
+        </shape>
+    </item>
+</layer-list>
+
+
+<!--Item 1: Gradient Rectangle-->
+
+<!--<shape android:shape="rectangle">: Specifies that the shape is a rectangle.-->
+<!--<gradient>: Defines a linear gradient fill for the rectangle.-->
+<!--android:angle="45": Sets the angle of the gradient to 45 degrees.-->
+<!--android:startColor="#F4401A": Defines the starting color of the gradient.-->
+<!--android:endColor="#F7D1C9": Defines the ending color of the gradient.-->
+<!--android:type="linear": Specifies a linear gradient.-->
+<!--Item 2: Solid Rectangle with Rounded Corners-->
+<!--<shape android:shape="rectangle">: Specifies that the shape is a rectangle.-->
+<!--<solid android:color="#FFFFFFFF"/>: Fills the rectangle with a solid color, which is white (#FFFFFFFF).-->
+<!--<corners>: Specifies rounded corners for the rectangle.-->
+<!--android:bottomRightRadius="180dp": Sets the radius for the bottom-right corner to 180dp.-->
+<!--android:topLeftRadius="180dp": Sets the radius for the top-left corner to 180dp.-->
+<!--android:topRightRadius="180dp": Sets the radius for the top-right corner to 180dp.-->
+<!--android:bottomLeftRadius="180dp": Sets the radius for the bottom-left corner to 180dp.-->

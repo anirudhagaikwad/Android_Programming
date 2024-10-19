@@ -9,6 +9,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.fragment.app.Fragment;
@@ -63,10 +67,34 @@ public class DocumentFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_document, container, false);
+        setupToolbar(view);
         editText = view.findViewById(R.id.editText);
         registerForContextMenu(editText);
         return view;
     }
+
+    // updated
+    private void setupToolbar(View view) {
+        // Find the Toolbar widget in the layout by its ID
+        Toolbar toolbar = view.findViewById(R.id.toolbar);
+
+        // Get a reference to the AppCompatActivity (the activity containing this fragment)
+        AppCompatActivity activity = (AppCompatActivity) requireActivity();
+
+        // Set the Toolbar as the ActionBar for the activity
+        activity.setSupportActionBar(toolbar);
+
+        // Enable the "Up" button (the left-facing arrow) in the ActionBar
+        if (activity.getSupportActionBar() != null) {
+            activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+
+        // Set a click listener for the navigation icon (usually the "Up" button)
+        // When the icon is clicked, simulate the onBackPressed behavior
+        toolbar.setNavigationOnClickListener(v -> requireActivity().onBackPressed());
+    }
+
+// updated end
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
